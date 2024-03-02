@@ -1,10 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <form action="https://formspree.io/f/myyrasdf"
+    method="POST">
+      <input type="text" id="name" name="name">
+      <br>
+      <input type="text" id="soname" name="soname">
+      <br>
+      <input type="email" id="mail" name="mail">
+      <br>
+      <input type="text" id="telefon" name="telefon">
+      <br>
+      <select name="city" id="city">
+        <option value="Kraków">Kraków</option>
+        <option value="Warszawa" selected>Warszawa</option>
+        <option value="Gdańsk">Gdańsk</option>
+      </select>
+      <br>
+      <input type="checkbox" id="daneosobowe">zgoda na dane osobowe
+      <br>
+      <span>select - płeć</span>
+      <br>
+      <input type="radio" name="gender" id="gender1" value="męski">męski
+      <br>
+      <input type="radio" name="gender" id="gender2" value="damski">damski
+      <br>
+      <textarea name="message" id="message"></textarea>
+      <br>
+      <input type="submit" value="Wyślij formularz">
+    </form>
+  </body>
 </html>
