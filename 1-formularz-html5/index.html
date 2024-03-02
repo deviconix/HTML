@@ -9,28 +9,37 @@
   <body>
     <form action="https://formspree.io/f/myyrasdf"
     method="POST">
+      <label for="name">imię</label>
       <input type="text" id="name" name="name">
       <br>
+      <label for="soname">nazwisko</label>
       <input type="text" id="soname" name="soname">
       <br>
+      <label for="mail">mail</label>
       <input type="email" id="mail" name="mail">
       <br>
+      <label for="telefon">telefon</label>
       <input type="text" id="telefon" name="telefon">
       <br>
+      <label for="city">wybór miasta</label>
       <select name="city" id="city">
         <option value="Kraków">Kraków</option>
         <option value="Warszawa" selected>Warszawa</option>
         <option value="Gdańsk">Gdańsk</option>
       </select>
       <br>
-      <input type="checkbox" id="daneosobowe">zgoda na dane osobowe
+      <input type="checkbox" id="daneosobowe">
+      <label for="daneosobowe">zgoda na dane osobowe</label>
       <br>
       <span>select - płeć</span>
       <br>
-      <input type="radio" name="gender" id="gender1" value="męski">męski
+      <input type="radio" name="gender" id="gender1" value="męski">
+      <label for="gender1">męski</label>
       <br>
-      <input type="radio" name="gender" id="gender2" value="damski">damski
+      <input type="radio" name="gender" id="gender2" value="damski">
+      <label for="gender2">damski</label>
       <br>
+      <label for="message">wiadomość</label><br>
       <textarea name="message" id="message"></textarea>
       <br>
       <input type="submit" value="Wyślij formularz">
